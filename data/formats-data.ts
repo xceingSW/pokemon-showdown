@@ -6044,4 +6044,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	spyro: {
+		tier: "LC",
+	}
 };
