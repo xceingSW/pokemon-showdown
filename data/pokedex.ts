@@ -20117,7 +20117,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
-
+	//Skylanders
 	spyro: {
 		num: 1026,
 		name: "Spyro",
@@ -20129,5 +20129,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-	}
+	},
+
+	doubletrouble: {
+		num: 1027,
+		name: "Double Trouble",
+		types: ["Psychic", "Electric"],
+		gender: "M",
+		baseStats: { hp: 60, atk: 62, def: 63, spa: 80, spd: 80, spe: 60 },
+		abilities: { 0: "Levitate", H: "Chlorophyll" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
 };
