@@ -6046,5 +6046,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	spyro: {
 		tier: "LC",
+	},
+	doubletrouble: {
+		tier: "LC",
 	}
 };
