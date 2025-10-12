@@ -20123,8 +20123,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Spyro",
 		types: ["Dragon", "Fire"],
 		gender: "M",
-		baseStats: { hp: 60, atk: 62, def: 63, spa: 80, spd: 80, spe: 60 },
-		abilities: { 0: "Blaze", H: "Chlorophyll" },
+		baseStats: { hp: 85, atk: 100, def: 60, spa: 65, spd: 95, spe: 95 }, // Total: 500
+		abilities: { 0: "Blaze", 1: "Sheer Force", H: "Multiscale" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
@@ -20134,13 +20134,40 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	doubletrouble: {
 		num: 1027,
 		name: "Double Trouble",
-		types: ["Psychic", "Electric"],
+		types: ["Fairy", "Ghost"],
 		gender: "M",
-		baseStats: { hp: 60, atk: 62, def: 63, spa: 80, spd: 80, spe: 60 },
-		abilities: { 0: "Levitate", H: "Chlorophyll" },
+		baseStats: { hp: 70, atk: 30, def: 45, spa: 120, spd: 80, spe: 100 }, // Total: 445
+		abilities: { 0: "Levitate", H: "Parental Bond" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
 	},
+
+	wreckingball: {
+		num: 1028,
+		name: "Wrecking Ball",
+		types: ["Fairy", "Bug"],
+		gender: "M",
+		baseStats: { hp: 30, atk: 30, def: 145, spa: 20, spd: 110, spe: 30 }, // Total: 365
+		abilities: { 0: "Cud Chew", H: "Wonder Gaurd" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	voodood: {
+		num: 1029,
+		name: "Voodood",
+		types: ["Dark", "Psychic"],
+		gender: "M",
+		baseStats: { hp: 150, atk: 130, def: 80, spa: 20, spd: 40, spe: 50 }, // Total: 470
+		abilities: { 0: "Sheer Force", H: "Defiant" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+	
 };
