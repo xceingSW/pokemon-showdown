@@ -20169,5 +20169,109 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Purple",
 		eggGroups: ["Dragon"],
 	},
+
+	bash: {
+		num: 1030,
+		name: "Bash",
+		types: ["Rock", "Dragon"],
+		gender: "M",
+		baseStats: { hp: 110, atk: 70, def: 200, spa: 20, spd: 40, spe: 70 }, // Total: 510
+		abilities: { 0: "Sturdy", 1:"Rough Skin", H: "Battle Armor" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	terrafin: {
+		num: 1031,
+		name: "Terrafin",
+		types: ["Fighting", "Ground"],
+		gender: "M",
+		baseStats: { hp: 95, atk: 115, def: 60, spa: 70, spd: 40, spe: 115 }, // Total: 495
+		abilities: { 0: "Touch Claws", 1:"Iron Fist", H: "Klutz" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
 	
+	dinorang: {
+		num: 1032,
+		name: "Dino Rang",
+		types: ["Ground"],
+		gender: "M",
+		baseStats: { hp: 100, atk: 100, def: 90, spa: 50, spd: 80, spe: 75 }, // Total: 495
+		abilities: { 0: "Inner Focus", 1:"Technician", H: "Skill Link" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	prismbreak: {
+		num: 1033,
+		name: "Prism Break",
+		types: ["Rock"],
+		gender: "N",
+		baseStats: { hp: 100, atk: 50, def: 100, spa: 120, spd: 80, spe: 35 }, // Total: 485
+		abilities: { 0: "Clear Body", 1: "Sniper", H: "Solid Rock" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	gillgrunt: {
+		num: 1034,
+		name: "Gill Grunt",
+		types: ["Water"],
+		gender: "M",
+		baseStats: { hp: 85, atk: 95, def: 85, spa: 95, spd: 80, spe: 85 }, // Total: 525
+		abilities: { 0: "Torrent", 1:"Swift Swim", H: "Steel Worker" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	zap: {
+		num: 1035,
+		name: "Zap",
+		types: ["Water", "Electric"],
+		gender: "F",
+		baseStats: { hp: 75, atk: 65, def: 60, spa: 100, spd: 80, spe: 125 }, // Total: 525
+		abilities: { 0: "Gooey", 1: "Static", H: "Storm Drain" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	whamshell: {
+		num: 1036,
+		name: "Wham Shell",
+		types: ["Water", "Rock"],
+		gender: "M",
+		baseStats: { hp: 105, atk: 65, def: 90, spa: 40, spd: 80, spe: 75 }, // Total: 455
+		abilities: { 0: "Anger Shell", 1: "Shell Armor", H: "Skill Link" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	slambam: {
+		num: 1037,
+		name: "Slam Bam",
+		types: ["Water", "Rock"],
+		gender: "M",
+		baseStats: { hp: 105, atk: 65, def: 90, spa: 40, spd: 80, spe: 75 }, // Total: 455
+		abilities: { 0: "Anger Shell", 1: "Shell Armor", H: "Skill Link" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	}
+
 };

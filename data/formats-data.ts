@@ -6049,5 +6049,35 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	doubletrouble: {
 		tier: "LC",
-	}
+	},
+	voodood: {
+		tier: "LC",
+	},
+	wreckingball: {
+		tier: "LC",
+	},
+	bash: {
+		tier: "LC",
+	},
+	dinorang: {
+		tier: "LC",
+	},
+	prismbreak: {
+		tier: "LC",
+	},
+	terrafin: {
+		tier: "LC",
+	},
+	slambam: {
+		tier: "LC",
+	},
+	zap: {
+		tier: "LC",
+	},
+	gillgrunt: {
+		tier: "LC",
+	},
+	whamshell: {
+		tier: "LC",
+	},
 };
