@@ -6080,4 +6080,28 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	whamshell: {
 		tier: "LC",
 	},
+	ignitor: {
+		tier: "LC",
+	},
+	eruptor: {
+		tier: "LC",
+	},
+	flameslinger: {
+		tier: "LC",
+	},
+	sunburn: {
+		tier: "LC",
+	},
+	boomer: {
+		tier: "LC",
+	},
+	triggerhappy: {
+		tier: "LC",
+	},
+	drillsergeant: {
+		tier: "LC",
+	},
+	drobot: {
+		tier: "LC",
+	},
 };

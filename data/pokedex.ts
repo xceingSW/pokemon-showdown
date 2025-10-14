@@ -20117,6 +20117,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+
+	
 	//Skylanders
 	spyro: {
 		num: 1026,
@@ -20272,6 +20274,109 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-	}
+	},
 
+	ignitor: {
+		num: 1038,
+		name: "Ignitor",
+		types: ["Fire", "Steel"],
+		gender: "M",
+		baseStats: { hp: 75, atk: 140, def: 70, spa: 60, spd: 70, spe: 65 }, // Total: 480
+		abilities: { 0: "Flame Body", 1: "Full Metal Body", H: "Weak Armor" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	eruptor: {
+		num: 1039,
+		name: "Eruptor",
+		types: ["Fire", "Rock"],
+		gender: "M",
+		baseStats: { hp: 100, atk: 50, def: 120, spa: 60, spd: 100, spe: 55 }, // Total: 485
+		abilities: { 0: "Flame Body", 1: "Flash Fire", H: "Magma Armor" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	flameslinger: {
+		num: 1040,
+		name: "Flameslinger",
+		types: ["Fire"],
+		gender: "M",
+		baseStats: { hp: 65, atk: 90, def: 60, spa: 90, spd: 60, spe: 145 }, // Total: 510
+		abilities: { 0: "Wimp Out", 1: "Quick Feet", H: "Sniper" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	sunburn: {
+		num: 1041,
+		name: "Sunburn",
+		types: ["Fire", "Flying"],
+		gender: "M",
+		baseStats: { hp: 75, atk: 75, def: 60, spa: 100, spd: 60, spe: 130 }, // Total: 500
+		abilities: { 0: "Drought", 1: "Flame Body", H: "Solar Power" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	boomer: {
+		num: 1042,
+		name: "Boomer",
+		types: ["Dark"],
+		gender: "M",
+		baseStats: { hp: 95, atk: 95, def: 80, spa: 40, spd: 70, spe: 110 }, // Total: 490
+		abilities: { 0: "Stench", 1: "Technician", H: "Aftermath" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	drillsergeant: {
+		num: 1043,
+		name: "Drill Sergeant",
+		types: ["Steel"],
+		gender: "N",
+		baseStats: { hp: 100, atk: 120, def: 120, spa: 20, spd: 80, spe: 40 }, // Total: 480
+		abilities: { 0: "Earth Eater", 1: "Steam Engine", H: "Bulletproof" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	triggerhappy: {
+		num: 1044,
+		name: "Trigger Happy",
+		types: ["Steel", "Fairy"],
+		gender: "M",
+		baseStats: { hp: 40, atk: 170, def: 40, spa: 170, spd: 40, spe: 40 }, // Total: 500
+		abilities: { 0: "Good as Gold", 1: "Bulletproof", H: "Quick Draw" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	drobot: {
+		num: 1045,
+		name: "Drobot",
+		types: ["Steel", "Dragon"],
+		gender: "M",
+		baseStats: { hp: 90, atk: 90, def: 90, spa: 90, spd: 90, spe: 90 }, // Total: 540
+		abilities: { 0: "Levitate", 1: "Full Metal Body", H: "Analytic" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
 };
