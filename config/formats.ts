@@ -32,16 +32,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Skylanders"
-	},
-	{
-		name: "[SSA] Skylanders spyro's adventure Singles",
-		desc: "Pokemon now with your favourite subset of creatures",
-		mod: "skylanders",
-		ruleset: []
-	},
-
-	{
 		section: "S/V Singles",
 	},
 	{
