@@ -19,6 +19,16 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+
+	{
+		section: "Skylanders"
+	},
+	{
+		name: "[SSA] Skylanders spyro's adventure Singles",
+		desc: "Pokemon now with your favourite subset of creatures",
+		mod: "skylanders",
+		ruleset: []
+	},
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
