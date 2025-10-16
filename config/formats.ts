@@ -26,7 +26,18 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[SSA] Skylanders spyro's adventure Singles",
 		desc: "Pokemon now with your favourite subset of creatures",
-		ruleset: []
+		ruleset: [],
+		onValidateTeam(team) {
+			const problems: string[] = [];
+			for (const set of team) {
+				const species = this.dex.species.get(set.species);
+				if (!species) continue;
+				if ((species.tier || '').toUpperCase() !== 'SKY') {
+					problems.push(`${set.species} is not allowed in this format; only SKY-tier species are permitted.`);
+				}
+			}
+			return problems.length ? problems : undefined;
+		},
 	},
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
