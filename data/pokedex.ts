@@ -20200,7 +20200,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	
 	dinorang: {
 		num: 1032,
-		name: "Dino Rang",
+		name: "Dino-Rang",
 		types: ["Ground"],
 		gender: "M",
 		baseStats: { hp: 100, atk: 100, def: 90, spa: 50, spd: 80, spe: 75 }, // Total: 495
@@ -20252,7 +20252,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 
 	whamshell: {
 		num: 1036,
-		name: "Wham Shell",
+		name: "Wham-Shell",
 		types: ["Water", "Rock"],
 		gender: "M",
 		baseStats: { hp: 105, atk: 65, def: 90, spa: 40, spd: 80, spe: 75 }, // Total: 455
