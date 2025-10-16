@@ -6047,99 +6047,131 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 
 	// Skylanders
 	spyro: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	doubletrouble: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	voodood: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	wreckingball: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	bash: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	dinorang: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	prismbreak: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	terrafin: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	slambam: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	zap: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	gillgrunt: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	whamshell: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	ignitor: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	eruptor: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	flameslinger: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	sunburn: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	boomer: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	triggerhappy: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	drillsergeant: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	drobot: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	cynder: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	hex: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	ghostroaster: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	chopchop: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	whirlwind: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	warnado: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	lightningrod: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	sonicboom: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	zook: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	camo: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	stumpsmash: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	},
 	stealthelf: {
-		tier: "LC",
+		tier: "SKY",
+		doublesTier: "DSKY"
 	}
 };
