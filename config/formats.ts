@@ -472,7 +472,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		searchShow: false,
 		teraPreviewDefault: true,
 		ruleset: ['[Gen 9] NatDex Draft', 'Item Clause = 2', 'Little Cup'],
-		banlist: ['Dragon Rage', 'Sonic Boom'],
+		banlist: ['Dragon Rage', 'move:Sonic Boom'],
 	},
 	{
 		name: "[Gen 8] Draft",
@@ -2689,7 +2689,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			'Aipom', 'Basculin-White-Striped', 'Clamperl', 'Corsola-Galar', 'Cutiefly', 'Drifloon', 'Dunsparce', 'Duraludon', 'Flittle', 'Girafarig',
 			'Gligar', 'Meditite', 'Misdreavus', 'Murkrow', 'Porygon', 'Qwilfish-Hisui', 'Rufflet', 'Scraggy', 'Scyther', 'Sneasel', 'Sneasel-Hisui',
 			'Stantler', 'Swirlix', 'Tangela', 'Voltorb-Hisui', 'Woobat', 'Yanma', 'Zigzagoon-Base', 'Chlorophyll', 'Moody', 'Eevium Z', 'King\'s Rock',
-			'Quick Claw', 'Razor Fang', 'Assist', 'Aurora Veil', 'Baton Pass', 'Dragon Rage', 'Sonic Boom', 'Sticky Web',
+			'Quick Claw', 'Razor Fang', 'Assist', 'Aurora Veil', 'Baton Pass', 'Dragon Rage', 'move:Sonic Boom', 'Sticky Web',
 		],
 	},
 	{
@@ -4074,7 +4074,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: [
 			'Aipom', 'Cutiefly', 'Drifloon', 'Gligar', 'Gothita', 'Meditite', 'Misdreavus', 'Murkrow', 'Porygon',
 			'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Trapinch', 'Vulpix-Base', 'Vulpix-Alola', 'Wingull', 'Yanma',
-			'Eevium Z', 'Baton Pass', 'Dragon Rage', 'Sonic Boom', 'Sticky Web',
+			'Eevium Z', 'Baton Pass', 'Dragon Rage', 'move:Sonic Boom', 'Sticky Web',
 		],
 	},
 	{
@@ -4276,7 +4276,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard', 'Little Cup'],
 		banlist: [
 			'Drifloon', 'Gligar', 'Meditite', 'Misdreavus', 'Murkrow', 'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Yanma',
-			'Baton Pass', 'Dragon Rage', 'Sonic Boom', 'Swagger',
+			'Baton Pass', 'Dragon Rage', 'move:Sonic Boom', 'Swagger',
 		],
 	},
 	{
@@ -4468,7 +4468,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard', 'Little Cup', 'Sleep Moves Clause'],
 		banlist: [
 			'Gligar', 'Meditite', 'Misdreavus', 'Murkrow', 'Scraggy', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma',
-			'Sand Rush', 'Sand Veil', 'Berry Juice', 'Soul Dew', 'Baton Pass', 'Dragon Rage', 'Sonic Boom', 'Swagger',
+			'Sand Rush', 'Sand Veil', 'Berry Juice', 'Soul Dew', 'Baton Pass', 'Dragon Rage', 'move:Sonic Boom', 'Swagger',
 		],
 	},
 	{
@@ -4630,7 +4630,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		ruleset: ['Standard', 'Little Cup', 'Evasion Abilities Clause', 'Sleep Moves Clause'],
 		banlist: [
 			'Meditite', 'Misdreavus', 'Murkrow', 'Scyther', 'Sneasel', 'Tangela', 'Yanma',
-			'Berry Juice', 'Deep Sea Tooth', 'Dragon Rage', 'Sonic Boom', 'Swagger',
+			'Berry Juice', 'Deep Sea Tooth', 'Dragon Rage', 'move:Sonic Boom', 'Swagger',
 		],
 	},
 	{
@@ -4819,7 +4819,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen3',
 		searchShow: false,
 		ruleset: ['Standard', 'Little Cup', 'Sleep Moves Clause', 'Accuracy Moves Clause'],
-		banlist: ['Chansey', 'Meditite', 'Omanyte', 'Porygon', 'Scyther', 'Wynaut', 'Zigzagoon', 'Deep Sea Tooth', 'Baton Pass', 'Dragon Rage', 'Sonic Boom', 'Swagger', 'Thunder Wave'],
+		banlist: ['Chansey', 'Meditite', 'Omanyte', 'Porygon', 'Scyther', 'Wynaut', 'Zigzagoon', 'Deep Sea Tooth', 'Baton Pass', 'Dragon Rage', 'move:Sonic Boom', 'Swagger', 'Thunder Wave'],
 	},
 	{
 		name: "[Gen 3] 1v1",
@@ -5010,7 +5010,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen1',
 		searchShow: false,
 		ruleset: ['Little Cup', 'Standard', '!Max Level', 'Adjust Level = 5'],
-		banlist: ['Dragon Rage', 'Fire Spin', 'Sonic Boom', 'Wrap'],
+		banlist: ['Dragon Rage', 'Fire Spin', 'move:Sonic Boom', 'Wrap'],
 	},
 	{
 		name: "[Gen 1] 1v1",
