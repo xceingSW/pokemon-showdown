@@ -100076,17 +100076,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["8M", "7M"],
 			worryseed: ["9L30", "8L30", "7T", "7L31", "6T", "6L31", "5T", "5L31", "4T", "4L31"],
 		},
-		eventData: [
-			{generation: 3, level: 70, moves: ["sweetscent", "growth", "solarbeam", "synthesis"], pokeball: "pokeball"},
-			{generation: 3, level: 10, gender: "M", moves: ["tackle", "growl", "leechseed", "vinewhip"], pokeball: "pokeball"},
-			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["tackle", "growl", "leechseed", "vinewhip"]},
-			{generation: 5, level: 1, shiny: 1, ivs: {def: 31}, moves: ["falseswipe", "block", "frenzyplant", "weatherball"], pokeball: "pokeball"},
-			{generation: 6, level: 5, moves: ["growl", "leechseed", "vinewhip", "poisonpowder"], pokeball: "cherishball"},
-			{generation: 6, level: 5, isHidden: true, moves: ["tackle", "growl", "celebrate"], pokeball: "cherishball"},
-		],
-		encounters: [
-			{generation: 1, level: 5},
-		],
 	},
 	doubletrouble: {
 		learnset: {

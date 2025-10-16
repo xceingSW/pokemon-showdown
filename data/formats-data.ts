@@ -6044,6 +6044,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+
+	// Skylanders
 	spyro: {
 		tier: "LC",
 	},
@@ -6104,4 +6106,40 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	drobot: {
 		tier: "LC",
 	},
+	cynder: {
+		tier: "LC",
+	},
+	hex: {
+		tier: "LC",
+	},
+	ghostroaster: {
+		tier: "LC",
+	},
+	chopchop: {
+		tier: "LC",
+	},
+	whirlwind: {
+		tier: "LC",
+	},
+	warnado: {
+		tier: "LC",
+	},
+	lightningrod: {
+		tier: "LC",
+	},
+	sonicboom: {
+		tier: "LC",
+	},
+	zook: {
+		tier: "LC",
+	},
+	camo: {
+		tier: "LC",
+	},
+	stumpsmash: {
+		tier: "LC",
+	},
+	stealthelf: {
+		tier: "LC",
+	}
 };

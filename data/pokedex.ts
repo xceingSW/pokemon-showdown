@@ -20379,4 +20379,160 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Purple",
 		eggGroups: ["Dragon"],
 	},
+
+	hex: {
+		num: 1046,
+		name: "Hex",
+		types: ["Ghost"],
+		gender: "F",
+		baseStats: { hp: 70, atk: 50, def: 70, spa: 130, spd: 70, spe: 110 }, // Total: 500
+		abilities: { 0: "Cursed Body", 1: "Infiltrator", H: "Disguise" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	chopchop: {
+		num: 1047,
+		name: "Chop Chop",
+		types: ["Dark", "Ground"],
+		gender: "M",
+		baseStats: { hp: 80, atk: 130, def: 80, spa: 50, spd: 80, spe: 80 }, // Total: 500
+		abilities: { 0: "Intrepid Sword", 1: "Dauntless Shield", H: "Stamina" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	cynder: {
+		num: 1048,
+		name: "Cynder",
+		types: ["Ghost", "Dragon"],
+		gender: "F",
+		baseStats: { hp: 75, atk: 85, def: 70, spa: 100, spd: 70, spe: 100 }, // Total: 500
+		abilities: { 0: "White Smoke", 1: "Levitate", H: "Cursed Body" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"]
+	},
+
+	ghostroaster: {
+		num: 1049,
+		name: "Ghost Roaster",
+		types: ["Ghost", "Steel"],
+		gender: "M",
+		baseStats: { hp: 85, atk: 95, def: 80, spa: 95, spd: 80, spe: 70 }, // Total: 505
+		abilities: { 0: "Purifying Salt", 1: "Steelworker", H: "Cursed Body" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	warnado: {
+		num: 1050,
+		name: "Warnado",
+		types: ["Flying", "Rock"],
+		gender: "M",
+		baseStats: { hp: 100, atk: 85, def: 95, spa: 70, spd: 85, spe: 90 }, // Total: 525
+		abilities: { 0: "Gale Wings", 1: "Rock Head", H: "Weak Armor" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	whirlwind: {
+		num: 1051,
+		name: "Whirlwind",
+		types: ["Flying", "Fairy"],
+		gender: "F",
+		baseStats: { hp: 70, atk: 50, def: 70, spa: 130, spd: 70, spe: 110 }, // Total: 500
+		abilities: { 0: "Pixilate", 1: "Wind Power", H: "Regenerator" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	sonicboom: {
+		num: 1052,
+		name: "Sonic Boom",
+		types: ["Flying"],
+		gender: "F",
+		baseStats: { hp: 75, atk: 75, def: 60, spa: 100, spd: 60, spe: 130 }, // Total: 500
+		abilities: { 0: "Punk Rock", 1: "Aerilate", H: "Parental Bond" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	lightningrod: {
+		num: 1053,
+		name: "Lightning Rod",
+		types: ["Electric", "Flying"],
+		gender: "M",
+		baseStats: { hp: 75, atk: 70, def: 70, spa: 115, spd: 70, spe: 100 }, // Total: 500
+		abilities: { 0: "Motor Drive", 1: "Lightning Rod", H: "Static" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	camo: {
+		num: 1054,
+		name: "Camo",
+		types: ["Grass", "Dragon"],
+		gender: "M",
+		baseStats: { hp: 90, atk: 80, def: 80, spa: 80, spd: 80, spe: 90 }, // Total: 500
+		abilities: { 0: "Overgrow", 1: "Harvest", H: "Sap Sipper" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	zook: {
+		num: 1055,
+		name: "Zook",
+		types: ["Grass"],
+		gender: "M",
+		baseStats: { hp: 100, atk: 100, def: 80, spa: 60, spd: 80, spe: 80 }, // Total: 500
+		abilities: { 0: "Seed Sower", 1: "Sniper", H: "Chlorophyll" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	stumpsmash: {
+		num: 1056,
+		name: "Stump Smash",
+		types: ["Grass", "Fighting"],
+		gender: "M",
+		baseStats: { hp: 110, atk: 130, def: 90, spa: 40, spd: 70, spe: 60 }, // Total: 500
+		abilities: { 0: "Iron Fist", 1: "Bulletproof", H: "Mold Breaker" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	},
+
+	stealthelf: {
+		num: 1057,
+		name: "Stealth Elf",
+		types: ["Grass", "Poison"],
+		gender: "F",
+		baseStats: { hp: 70, atk: 85, def: 70, spa: 100, spd: 70, spe: 105 }, // Total: 500
+		abilities: { 0: "Disguise", 1: "Poison Touch", H: "Regenerator" },
+		heightm: 1,
+		weightkg: 13,
+		color: "Purple",
+		eggGroups: ["Dragon"],
+	}
 };
