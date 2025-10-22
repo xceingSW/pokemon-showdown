@@ -20136,10 +20136,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	doubletrouble: {
 		num: 1027,
 		name: "Double Trouble",
-		types: ["Fairy", "Ghost"],
+		types: ["Psychic"],
 		gender: "M",
 		baseStats: { hp: 70, atk: 30, def: 45, spa: 120, spd: 80, spe: 100 }, // Total: 445
-		abilities: { 0: "Levitate", H: "Parental Bond" },
+		abilities: { 0: "Levitate", H: "Magic Bounce" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
@@ -20152,7 +20152,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Fairy", "Bug"],
 		gender: "M",
 		baseStats: { hp: 30, atk: 30, def: 145, spa: 20, spd: 110, spe: 30 }, // Total: 365
-		abilities: { 0: "Cud Chew", H: "Wonder Gaurd" },
+		abilities: { 0: "Cud Chew", 1: "Reckless", H: "Huge Power" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
@@ -20162,10 +20162,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	voodood: {
 		num: 1029,
 		name: "Voodood",
-		types: ["Dark", "Psychic"],
+		types: ["Dark", "Fighting"],
 		gender: "M",
 		baseStats: { hp: 150, atk: 130, def: 80, spa: 20, spd: 40, spe: 50 }, // Total: 470
-		abilities: { 0: "Sheer Force", H: "Defiant" },
+		abilities: { 0: "Sheer Force", 1: "Static", H: "Defiant" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
@@ -20266,10 +20266,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	slambam: {
 		num: 1037,
 		name: "Slam Bam",
-		types: ["Water", "Rock"],
+		types: ["Ice", "Fighting"],
 		gender: "M",
 		baseStats: { hp: 105, atk: 65, def: 90, spa: 40, spd: 80, spe: 75 }, // Total: 455
-		abilities: { 0: "Anger Shell", 1: "Shell Armor", H: "Skill Link" },
+		abilities: { 0: "Iron Fist", 1: "Thick Fat", H: "Ice Body" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
@@ -20308,7 +20308,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Fire"],
 		gender: "M",
 		baseStats: { hp: 65, atk: 90, def: 60, spa: 90, spd: 60, spe: 145 }, // Total: 510
-		abilities: { 0: "Wimp Out", 1: "Quick Feet", H: "Sniper" },
+		abilities: { 0: "Dazzling", 1: "Quick Feet", H: "Sniper" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
@@ -20386,7 +20386,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Ghost"],
 		gender: "F",
 		baseStats: { hp: 70, atk: 50, def: 70, spa: 130, spd: 70, spe: 110 }, // Total: 500
-		abilities: { 0: "Cursed Body", 1: "Infiltrator", H: "Disguise" },
+		abilities: { 0: "Cursed Body", 1: "Magic Guard", H: "Disguise" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
@@ -20399,7 +20399,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Dark", "Ground"],
 		gender: "M",
 		baseStats: { hp: 80, atk: 130, def: 80, spa: 50, spd: 80, spe: 80 }, // Total: 500
-		abilities: { 0: "Intrepid Sword", 1: "Dauntless Shield", H: "Stamina" },
+		abilities: { 0: "Intrepid Sword", 1: "Dauntless Shield", H: "Inner Focus" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
@@ -20412,7 +20412,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Ghost", "Dragon"],
 		gender: "F",
 		baseStats: { hp: 75, atk: 85, def: 70, spa: 100, spd: 70, spe: 100 }, // Total: 500
-		abilities: { 0: "White Smoke", 1: "Levitate", H: "Cursed Body" },
+		abilities: { 0: "White Smoke", 1: "Infiltrator", H: "Cursed Body" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
@@ -20438,7 +20438,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Flying", "Rock"],
 		gender: "M",
 		baseStats: { hp: 100, atk: 85, def: 95, spa: 70, spd: 85, spe: 90 }, // Total: 525
-		abilities: { 0: "Gale Wings", 1: "Rock Head", H: "Weak Armor" },
+		abilities: { 0: "Wind Rider", 1: "Rock Head", H: "Weak Armor" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
@@ -20464,7 +20464,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Flying"],
 		gender: "F",
 		baseStats: { hp: 75, atk: 75, def: 60, spa: 100, spd: 60, spe: 130 }, // Total: 500
-		abilities: { 0: "Punk Rock", 1: "Aerilate", H: "Parental Bond" },
+		abilities: { 0: "Soundproof", 1: "Aerilate", H: "Parental Bond" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
