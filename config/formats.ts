@@ -26,6 +26,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[SKY] Skylanders: Spyro's Adventure",
 		desc: "Pokemon now with your favourite subset of creatures",
+		mod: 'gen9',
 		ruleset: [],
 		onValidateTeam(team) {
 			const problems: string[] = [];
