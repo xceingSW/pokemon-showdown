@@ -29,8 +29,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		desc: "Competitive format for Skylanders Pokemon - Beta testing version",
 		mod: 'gen9',
 		searchShow: true,
-		ruleset: ['Standard'],
-		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
+		ruleset: ['[Gen 9] OU', '+SKY'],
+		banlist: ['Uber', 'AG'],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			if (species.isNonstandard !== 'SKY') {
