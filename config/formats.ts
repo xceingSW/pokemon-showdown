@@ -27,41 +27,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Beta] SKY OU",
 		desc: "Competitive format for Skylanders Pokemon - Beta testing version",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/sky-beta-discussion.3711753/">SKY Beta Discussion</a>`,
-		],
 		mod: 'gen9',
 		searchShow: true,
 		ruleset: ['Standard'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
-		onValidateSet(set) {
-			const species = this.dex.species.get(set.species);
-			if (species.isNonstandard !== 'SKY') {
-				return [`${species.name} is not a Skylander.`];
-			}
-		},
-	},
-	{
-		name: "[Beta] SKY UU",
-		desc: "Competitive format for less powerful Skylanders Pokemon - Beta testing version",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/sky-uu-beta-discussion.3711754/">SKY UU Beta Discussion</a>`,
-		],
-		mod: 'gen9',
-		searchShow: true,
-		ruleset: ['[Beta] SKY OU'],
-		banlist: ['OU', 'UUBL'],
-	},
-	{
-		name: "[Beta] SKY Ubers",
-		desc: "Competitive format for the most powerful Skylanders Pokemon - Beta testing version",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/sky-ubers-beta-discussion.3711755/">SKY Ubers Beta Discussion</a>`,
-		],
-		mod: 'gen9',
-		searchShow: true,
-		ruleset: ['Standard', 'Sleep Clause Mod'],
-		banlist: ['AG', 'Shadow Tag', 'Moody', 'King\'s Rock', 'Baton Pass'],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			if (species.isNonstandard !== 'SKY') {
