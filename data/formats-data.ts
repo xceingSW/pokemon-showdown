@@ -6047,131 +6047,131 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 
 	// Skylanders
 	spyro: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	doubletrouble: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	voodood: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	wreckingball: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	bash: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	dinorang: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	prismbreak: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	terrafin: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	slambam: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	zap: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	gillgrunt: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	whamshell: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	ignitor: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	eruptor: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	flameslinger: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	sunburn: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	boomer: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	triggerhappy: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	drillsergeant: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	drobot: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	cynder: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	hex: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	ghostroaster: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	chopchop: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	whirlwind: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	warnado: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	lightningrod: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	sonicboom: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	zook: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	camo: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	stumpsmash: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	},
 	stealthelf: {
-		tier: "SKY",
-		doublesTier: "DSKY"
+		isNonstandard: "SKY",
+		tier: "SKY"
 	}
 };
