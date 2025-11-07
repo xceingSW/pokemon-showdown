@@ -26,15 +26,15 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "[Beta] SKY OU",
-		desc: "Competitive format for Skylanders Pokemon - Beta testing version",
+		desc: "SKY tier",
 		mod: 'gen9',
 		searchShow: true,
 		ruleset: ['[Gen 9] OU', '+SKY'],
-		banlist: ['Uber', 'AG'],
+		banlist: [],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			if (species.isNonstandard !== 'SKY') {
-				return [`${species.name} is not a Skylander.`];
+				return [`${species.name} is not allowed.`];
 			}
 		},
 	},
