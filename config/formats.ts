@@ -23,7 +23,6 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 
 	{
 		section: "Beta SKY",
-		column: 3,
 	},
 	{
 		name: "[Beta] SKY OU",
@@ -33,7 +32,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		],
 		mod: 'gen9',
 		searchShow: true,
-		ruleset: ['Standard', 'Sleep Clause Mod'],
+		ruleset: ['Standard'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
