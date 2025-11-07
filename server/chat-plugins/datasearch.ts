@@ -678,11 +678,12 @@ function runDexsearch(target: string, cmd: string, message: string, isTest: bool
 		nfe: 'NFE',
 		lc: 'LC',
 		cap: 'CAP', caplc: 'CAP LC', capnfe: 'CAP NFE',
+		sky: 'SKY', skyuu: 'SKY UU', skyuber: 'SKY UBER'
 	});
 	const singlesTiersValues: { [k: string]: number } = Object.assign(Object.create(null), {
-		AG: 14, Uber: 13,
-		OU: 12, CAP: 12,
-		UUBL: 11, UU: 10,
+		AG: 14, Uber: 13, 'SKY UBER': 13,
+		OU: 12, CAP: 12, SKY: 12,
+		UUBL: 11, UU: 10, 'SKY UU': 10,
 		RUBL: 9, RU: 8,
 		NUBL: 7, NU: 6,
 		PUBL: 5, PU: 4,

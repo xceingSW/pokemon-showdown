@@ -200,6 +200,19 @@ export const Tags: { [id: IDEntry]: TagData } = {
 		name: "CAP NFE",
 		speciesFilter: species => species.tier === 'CAP NFE',
 	},
+	skytier: {
+		name: "SKY Tier",
+		speciesFilter: species => species.isNonstandard === 'SKY'
+	},
+	skyuu: {
+		name: "SKY UU",
+		speciesFilter: species => species.tier === 'SKY UU'
+	},
+	skyuber: {
+		name: "SKY UBER",
+		speciesFilter: species => species.tier === 'SKY UBER'
+	},
+
 	ag: {
 		name: "AG",
 		speciesFilter: species => species.tier === 'AG',
@@ -287,6 +300,10 @@ export const Tags: { [id: IDEntry]: TagData } = {
 	cap: {
 		name: "CAP",
 		speciesFilter: thing => thing.isNonstandard === 'CAP',
+	},
+	sky: {
+		name: "SKY",
+		speciesFilter: thing => thing.isNonstandard === 'SKY',
 	},
 	custom: {
 		name: "Custom",
