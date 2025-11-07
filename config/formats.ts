@@ -24,10 +24,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Skylanders"
 	},
 	{
-		name: "[gen 9] Skylanders: Spyro's Adventure",
+		name: "[SKY] Skylanders: Spyro's Adventure",
 		desc: "Pokemon now with your favourite subset of creatures",
 		mod: 'gen9',
-		ruleset: ['[Gen 9] OU', '+SKY'],
+		ruleset: ["+SKY"],
 		onValidateTeam(team) {
 			const problems: string[] = [];
 			for (const set of team) {
