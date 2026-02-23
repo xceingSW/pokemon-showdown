@@ -20145,7 +20145,8 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
+isNonstandard: "SKY",
+tier: "SKY"
 	},
 
 	wreckingball: {
