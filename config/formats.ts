@@ -41,7 +41,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		{
 			name: "[Test] SKY OU",
 			mod: "sky",           // ✅ must match your mod folder
-			ruleset: ['Standard'],  // +SKY allows your isNonstandard: "SKY" Pokémon
+			ruleset: ['Standard', '+SKY'],  // +SKY allows your isNonstandard: "SKY" Pokémon
 			searchShow: true,
 			desc: "Custom SKY Pokémon tier",
 			banlist: []

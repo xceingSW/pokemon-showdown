@@ -14,9 +14,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-		isNonstandard: "SKY",
-		tier: "SKY",
-		
+
 	},
 
 	doubletrouble: {
@@ -30,7 +28,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY",
 	},
 
 	wreckingball: {
@@ -44,7 +41,6 @@ isNonstandard: "SKY",
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	voodood: {
@@ -58,7 +54,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	bash: {
@@ -72,7 +67,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	terrafin: {
@@ -86,7 +80,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 	
 	dinorang: {
@@ -100,7 +93,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	prismbreak: {
@@ -114,7 +106,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	gillgrunt: {
@@ -128,7 +119,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	zap: {
@@ -142,7 +132,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	whamshell: {
@@ -156,7 +145,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	slambam: {
@@ -170,7 +158,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	ignitor: {
@@ -184,7 +171,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	eruptor: {
@@ -198,7 +184,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	flameslinger: {
@@ -212,7 +197,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	sunburn: {
@@ -226,7 +210,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	boomer: {
@@ -240,7 +223,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	drillsergeant: {
@@ -254,7 +236,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	triggerhappy: {
@@ -268,7 +249,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	drobot: {
@@ -282,7 +262,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	hex: {
@@ -296,7 +275,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	chopchop: {
@@ -310,7 +288,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	cynder: {
@@ -337,7 +314,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	warnado: {
@@ -351,7 +327,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	whirlwind: {
@@ -365,7 +340,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	sonicboom: {
@@ -379,7 +353,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	lightningrod: {
@@ -393,7 +366,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	camo: {
@@ -407,7 +379,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	zook: {
@@ -421,7 +392,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	stumpsmash: {
@@ -435,7 +405,6 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	},
 
 	stealthelf: {
@@ -449,6 +418,5 @@ isNonstandard: "SKY"
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
-isNonstandard: "SKY"
 	}
 }
