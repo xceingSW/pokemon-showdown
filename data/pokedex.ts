@@ -20131,6 +20131,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	doubletrouble: {
@@ -20144,6 +20145,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	wreckingball: {
@@ -20157,6 +20159,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	voodood: {
@@ -20170,6 +20173,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	bash: {
@@ -20183,6 +20187,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	terrafin: {
@@ -20196,6 +20201,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 	
 	dinorang: {
@@ -20209,6 +20215,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	prismbreak: {
@@ -20222,6 +20229,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	gillgrunt: {
@@ -20235,6 +20243,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	zap: {
@@ -20248,6 +20257,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	whamshell: {
@@ -20261,6 +20271,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	slambam: {
@@ -20274,6 +20285,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	ignitor: {
@@ -20287,6 +20299,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	eruptor: {
@@ -20300,6 +20313,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	flameslinger: {
@@ -20313,6 +20327,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	sunburn: {
@@ -20326,6 +20341,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	boomer: {
@@ -20339,6 +20355,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	drillsergeant: {
@@ -20352,6 +20369,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	triggerhappy: {
@@ -20365,6 +20383,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	drobot: {
@@ -20378,6 +20397,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	hex: {
@@ -20391,6 +20411,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	chopchop: {
@@ -20404,6 +20425,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	cynder: {
@@ -20430,6 +20452,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	warnado: {
@@ -20443,6 +20466,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	whirlwind: {
@@ -20456,6 +20480,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	sonicboom: {
@@ -20469,6 +20494,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	lightningrod: {
@@ -20482,6 +20508,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	camo: {
@@ -20495,6 +20522,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	zook: {
@@ -20508,6 +20536,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	stumpsmash: {
@@ -20521,6 +20550,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	},
 
 	stealthelf: {
@@ -20534,5 +20564,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 13,
 		color: "Purple",
 		eggGroups: ["Dragon"],
+isNonstandard: "SKY"
 	}
 };
