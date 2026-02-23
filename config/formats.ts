@@ -22,10 +22,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Beta SKY",
+		section: "Test SKY",
 	},
 	{
-		name: "[Beta] SKY OU",
+		name: "[Test] SKY OU",
 		desc: "SKY tier",
 		mod: 'gen9',
 		searchShow: true,
@@ -36,8 +36,16 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			if (species.isNonstandard !== 'SKY') {
 				return [`${species.name} is not allowed.`];
 			}
-		},
+		}
 	},
+		{
+			name: "[Test] SKY OU",
+			mod: "sky",           // ✅ must match your mod folder
+			ruleset: ['[Gen 9] OU', '+SKY'],  // +SKY allows your isNonstandard: "SKY" Pokémon
+			searchShow: true,
+			desc: "Custom SKY Pokémon tier",
+		},
+	
 
 	{
 		section: "Skylanders"
