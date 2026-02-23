@@ -25,7 +25,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Test SKY",
 	},
 	{
-		name: "[Test] SKY OU",
+		name: "[Test] SKY OU idk",
 		desc: "SKY tier",
 		mod: 'gen9',
 		searchShow: true,
