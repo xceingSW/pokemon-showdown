@@ -33,15 +33,15 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: [],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
-			if (species.isNonstandard !== 'SKY') {
+			if (species.isNonstandard !== 'sky') {
 				return [`${species.name} is not allowed.`];
 			}
 		}
 	},
 		{
 			name: "[Test] SKY OU",
-			mod: "sky",           // ✅ must match your mod folder
-			ruleset: ['Standard', '+SKY'],  // +SKY allows your isNonstandard: "SKY" Pokémon
+			mod: "sky", 
+			ruleset: ['[Gen 9] OU', '+SKY'],  
 			searchShow: true,
 			desc: "Custom SKY Pokémon tier",
 			banlist: []
@@ -61,7 +61,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	// 		for (const set of team) {
 	// 			const species = this.dex.species.get(set.species);
 	// 			if (!species) continue;
-	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 			if ((species.tier || '').toUpperCase() !== 'sky') {
 	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
 	// 				continue;
 	// 			}
@@ -79,7 +79,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	// 		for (const set of team) {
 	// 			const species = this.dex.species.get(set.species);
 	// 			if (!species) continue;
-	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 			if ((species.tier || '').toUpperCase() !== 'sky') {
 	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
 	// 				continue;
 	// 			}
@@ -96,7 +96,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	// 		for (const set of team) {
 	// 			const species = this.dex.species.get(set.species);
 	// 			if (!species) continue;
-	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 			if ((species.tier || '').toUpperCase() !== 'sky') {
 	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
 	// 				continue;
 	// 			}
@@ -113,7 +113,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	// 		for (const set of team) {
 	// 			const species = this.dex.species.get(set.species);
 	// 			if (!species) continue;
-	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 			if ((species.tier || '').toUpperCase() !== 'sky') {
 	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
 	// 				continue;
 	// 			}
@@ -130,7 +130,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	// 		for (const set of team) {
 	// 			const species = this.dex.species.get(set.species);
 	// 			if (!species) continue;
-	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 			if ((species.tier || '').toUpperCase() !== 'sky') {
 	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
 	// 				continue;
 	// 			}
@@ -147,7 +147,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	// 		for (const set of team) {
 	// 			const species = this.dex.species.get(set.species);
 	// 			if (!species) continue;
-	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 			if ((species.tier || '').toUpperCase() !== 'sky') {
 	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
 	// 				continue;
 	// 			}

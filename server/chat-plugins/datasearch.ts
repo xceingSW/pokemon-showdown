@@ -678,7 +678,7 @@ function runDexsearch(target: string, cmd: string, message: string, isTest: bool
 		nfe: 'NFE',
 		lc: 'LC',
 		cap: 'CAP', caplc: 'CAP LC', capnfe: 'CAP NFE',
-		sky: 'SKY', skyuu: 'SKY UU', skyuber: 'SKY UBER'
+		sky: 'sky'
 	});
 	const singlesTiersValues: { [k: string]: number } = Object.assign(Object.create(null), {
 		AG: 14, Uber: 13, 'SKY UBER': 13,
