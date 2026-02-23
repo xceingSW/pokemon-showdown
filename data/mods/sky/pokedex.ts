@@ -1,6 +1,6 @@
 import { ModdedSpeciesData } from "../../../sim/dex-species";
 
-export const Pokedex: {[k: string]: ModdedSpeciesData} = {
+export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 	
 	//Skylanders
 	spyro: {

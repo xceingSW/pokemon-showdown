@@ -48,113 +48,113 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		},
 	
 
-	{
-		section: "Skylanders"
-	},
-	{
-		name: "[SKY] Skylanders: Spyro's Adventure",
-		desc: "Pokemon now with your favourite subset of creatures",
-		mod: 'gen9',
-		ruleset: ["+SKY"],
-		onValidateTeam(team) {
-			const problems: string[] = [];
-			for (const set of team) {
-				const species = this.dex.species.get(set.species);
-				if (!species) continue;
-				if ((species.tier || '').toUpperCase() !== 'SKY') {
-					problems.push(`${set.species} is not a Skylander and is not allowed.`);
-					continue;
-				}
+	// {
+	// 	section: "Skylanders"
+	// },
+	// {
+	// 	name: "[SKY] Skylanders: Spyro's Adventure",
+	// 	desc: "Pokemon now with your favourite subset of creatures",
+	// 	mod: 'gen9',
+	// 	ruleset: ["+SKY"],
+	// 	onValidateTeam(team) {
+	// 		const problems: string[] = [];
+	// 		for (const set of team) {
+	// 			const species = this.dex.species.get(set.species);
+	// 			if (!species) continue;
+	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
+	// 				continue;
+	// 			}
 
-			}
-			return problems.length ? problems : undefined;
-		},
-	},
-	{
-		name: "[SKY] Skylanders: Giants",
-		desc: "Pokemon now with your favourite subset of creatures",
-		ruleset: [],
-		onValidateTeam(team) {
-			const problems: string[] = [];
-			for (const set of team) {
-				const species = this.dex.species.get(set.species);
-				if (!species) continue;
-				if ((species.tier || '').toUpperCase() !== 'SKY') {
-					problems.push(`${set.species} is not a Skylander and is not allowed.`);
-					continue;
-				}
-			}
-			return problems.length ? problems : undefined;
-		},
-	},
-	{
-		name: "[SKY] Skylanders: Swap Force",
-		desc: "Pokemon now with your favourite subset of creatures",
-		ruleset: [],
-		onValidateTeam(team) {
-			const problems: string[] = [];
-			for (const set of team) {
-				const species = this.dex.species.get(set.species);
-				if (!species) continue;
-				if ((species.tier || '').toUpperCase() !== 'SKY') {
-					problems.push(`${set.species} is not a Skylander and is not allowed.`);
-					continue;
-				}
-			}
-			return problems.length ? problems : undefined;
-		},
-	},
-	{
-		name: "[SKY] Skylanders: Trap Team",
-		desc: "Pokemon now with your favourite subset of creatures",
-		ruleset: [],
-		onValidateTeam(team) {
-			const problems: string[] = [];
-			for (const set of team) {
-				const species = this.dex.species.get(set.species);
-				if (!species) continue;
-				if ((species.tier || '').toUpperCase() !== 'SKY') {
-					problems.push(`${set.species} is not a Skylander and is not allowed.`);
-					continue;
-				}
-			}
-			return problems.length ? problems : undefined;
-		},
-	},
-	{
-		name: "[SKY] Skylanders: SuperChargers",
-		desc: "Pokemon now with your favourite subset of creatures",
-		ruleset: [],
-		onValidateTeam(team) {
-			const problems: string[] = [];
-			for (const set of team) {
-				const species = this.dex.species.get(set.species);
-				if (!species) continue;
-				if ((species.tier || '').toUpperCase() !== 'SKY') {
-					problems.push(`${set.species} is not a Skylander and is not allowed.`);
-					continue;
-				}
-			}
-			return problems.length ? problems : undefined;
-		},
-	},
-	{
-		name: "[SKY] Skylanders: Imaginators",
-		desc: "Pokemon now with your favourite subset of creatures",
-		ruleset: [],
-		onValidateTeam(team) {
-			const problems: string[] = [];
-			for (const set of team) {
-				const species = this.dex.species.get(set.species);
-				if (!species) continue;
-				if ((species.tier || '').toUpperCase() !== 'SKY') {
-					problems.push(`${set.species} is not a Skylander and is not allowed.`);
-					continue;
-				}
-			}
-			return problems.length ? problems : undefined;
-		},
-	},
+	// 		}
+	// 		return problems.length ? problems : undefined;
+	// 	},
+	// },
+	// {
+	// 	name: "[SKY] Skylanders: Giants",
+	// 	desc: "Pokemon now with your favourite subset of creatures",
+	// 	ruleset: [],
+	// 	onValidateTeam(team) {
+	// 		const problems: string[] = [];
+	// 		for (const set of team) {
+	// 			const species = this.dex.species.get(set.species);
+	// 			if (!species) continue;
+	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
+	// 				continue;
+	// 			}
+	// 		}
+	// 		return problems.length ? problems : undefined;
+	// 	},
+	// },
+	// {
+	// 	name: "[SKY] Skylanders: Swap Force",
+	// 	desc: "Pokemon now with your favourite subset of creatures",
+	// 	ruleset: [],
+	// 	onValidateTeam(team) {
+	// 		const problems: string[] = [];
+	// 		for (const set of team) {
+	// 			const species = this.dex.species.get(set.species);
+	// 			if (!species) continue;
+	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
+	// 				continue;
+	// 			}
+	// 		}
+	// 		return problems.length ? problems : undefined;
+	// 	},
+	// },
+	// {
+	// 	name: "[SKY] Skylanders: Trap Team",
+	// 	desc: "Pokemon now with your favourite subset of creatures",
+	// 	ruleset: [],
+	// 	onValidateTeam(team) {
+	// 		const problems: string[] = [];
+	// 		for (const set of team) {
+	// 			const species = this.dex.species.get(set.species);
+	// 			if (!species) continue;
+	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
+	// 				continue;
+	// 			}
+	// 		}
+	// 		return problems.length ? problems : undefined;
+	// 	},
+	// },
+	// {
+	// 	name: "[SKY] Skylanders: SuperChargers",
+	// 	desc: "Pokemon now with your favourite subset of creatures",
+	// 	ruleset: [],
+	// 	onValidateTeam(team) {
+	// 		const problems: string[] = [];
+	// 		for (const set of team) {
+	// 			const species = this.dex.species.get(set.species);
+	// 			if (!species) continue;
+	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
+	// 				continue;
+	// 			}
+	// 		}
+	// 		return problems.length ? problems : undefined;
+	// 	},
+	// },
+	// {
+	// 	name: "[SKY] Skylanders: Imaginators",
+	// 	desc: "Pokemon now with your favourite subset of creatures",
+	// 	ruleset: [],
+	// 	onValidateTeam(team) {
+	// 		const problems: string[] = [];
+	// 		for (const set of team) {
+	// 			const species = this.dex.species.get(set.species);
+	// 			if (!species) continue;
+	// 			if ((species.tier || '').toUpperCase() !== 'SKY') {
+	// 				problems.push(`${set.species} is not a Skylander and is not allowed.`);
+	// 				continue;
+	// 			}
+	// 		}
+	// 		return problems.length ? problems : undefined;
+	// 	},
+	//},
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
