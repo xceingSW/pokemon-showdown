@@ -29,7 +29,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		desc: "SKY tier",
 		mod: 'gen9',
 		searchShow: true,
-		ruleset: ['[Gen 9] OU', '+SKY'],
+		ruleset: ['[Gen 9] OU', '+sky'],
 		banlist: [],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
@@ -40,8 +40,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 		{
 			name: "[Test] SKY OU",
-			mod: "sky", 
-			ruleset: ['[Gen 9] OU', '+SKY'],  
+			mod: "skylanders", 
+			ruleset: ['[Gen 9] OU', '+sky'],  
 			searchShow: true,
 			desc: "Custom SKY Pokémon tier",
 			banlist: []
