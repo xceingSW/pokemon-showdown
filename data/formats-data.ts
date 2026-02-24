@@ -6045,13 +6045,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	spyro: {
-		natDexTier: "OU",
-		tier: "OU"
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	doubletrouble: {
 				//isNonstandard: "sky",
-		natDexTier: "CAP",
-		tier: "CAP"
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	voodood: {
 		isNonstandard: "sky",
