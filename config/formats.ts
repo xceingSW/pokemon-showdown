@@ -26,10 +26,10 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 		{
 		name: "Skylanders",
-		desc: "Chat.... We are so back",
+		desc: "Chat....",
 		mod: 'gen9',
 		ruleset: ['[Gen 9] OU', '+CAP'],
-		banlist: [],
+		banlist: ['Crucibellite', 'Rage Fist'],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			if (species.isNonstandard !== 'sky') {
