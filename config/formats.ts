@@ -24,12 +24,11 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		section: "Test SKY",
 	},
-	{
-		name: "[Test] SKY OU idk",
-		desc: "SKY tier",
+		{
+		name: "Skylanders",
+		desc: "Chat.... We are so back",
 		mod: 'gen9',
-		searchShow: true,
-		ruleset: ['[Gen 9] OU', '+sky'],
+		ruleset: ['[Gen 9] OU', '+CAP'],
 		banlist: [],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
@@ -38,14 +37,28 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			}
 		}
 	},
-		{
-			name: "[Test] SKY OU",
-			mod: "skylanders", 
-			ruleset: ['[Gen 9] OU', '+sky'],  
-			searchShow: true,
-			desc: "Custom SKY Pokémon tier",
-			banlist: []
-		},
+	// {
+	// 	name: "[Test] SKY OU idk",
+	// 	desc: "SKY tier",
+	// 	mod: 'gen9',
+	// 	searchShow: true,
+	// 	ruleset: ['[Gen 9] OU', '+sky'],
+	// 	banlist: [],
+	// 	onValidateSet(set) {
+	// 		const species = this.dex.species.get(set.species);
+	// 		if (species.isNonstandard !== 'sky') {
+	// 			return [`${species.name} is not allowed.`];
+	// 		}
+	// 	}
+	// },
+	// 	{
+	// 		name: "[Test] SKY OU",
+	// 		mod: "skylanders", 
+	// 		ruleset: ['[Gen 9] OU', '+sky'],  
+	// 		searchShow: true,
+	// 		desc: "Custom SKY Pokémon tier",
+	// 		banlist: []
+	// 	},
 	
 
 	// {
