@@ -6056,8 +6056,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	voodood: {
 				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		natDexTier: "CAP",
+		tier: "CAP"
 	},
 	wreckingball: {
 				//isNonstandard: "sky",
