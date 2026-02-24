@@ -6045,9 +6045,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "Illegal",
 	},
 	spyro: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	doubletrouble: {
 				//isNonstandard: "sky",
@@ -6055,153 +6054,123 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "sky",
 	},
 	voodood: {
-				//isNonstandard: "sky",
-		natDexTier: "CAP",
-		tier: "CAP"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	wreckingball: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	bash: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	dinorang: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	prismbreak: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	terrafin: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	slambam: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	zap: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	gillgrunt: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	whamshell: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	ignitor: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	eruptor: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	flameslinger: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	sunburn: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	boomer: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	triggerhappy: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	drillsergeant: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	drobot: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	cynder: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	hex: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	ghostroaster: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	chopchop: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	whirlwind: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	warnado: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	lightningrod: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	sonicboom: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	zook: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	camo: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	stumpsmash: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	},
 	stealthelf: {
-				//isNonstandard: "sky",
-		natDexTier: "OU",
-		tier: "OU"
+		isNonstandard: "sky",
+		tier: "sky",
 	}
 };
