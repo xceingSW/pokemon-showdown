@@ -20189,7 +20189,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		types: ["Fighting", "Ground"],
 		gender: "M",
 		baseStats: { hp: 95, atk: 115, def: 60, spa: 70, spd: 40, spe: 115 }, // Total: 495
-		abilities: { 0: "Touch Claws", 1:"Iron Fist", H: "Klutz" },
+		abilities: { 0: "Tough Claws", 1:"Iron Fist", H: "Klutz" },
 		heightm: 1,
 		weightkg: 13,
 		color: "Purple",
