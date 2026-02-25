@@ -6054,123 +6054,123 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "sky"
 	},
 	voodood: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	wreckingball: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	bash: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	dinorang: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	prismbreak: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	terrafin: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	slambam: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	zap: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	gillgrunt: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	whamshell: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	ignitor: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	eruptor: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	flameslinger: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	sunburn: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	boomer: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	triggerhappy: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	drillsergeant: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	drobot: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	cynder: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	hex: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	ghostroaster: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	chopchop: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	whirlwind: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	warnado: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	lightningrod: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	sonicboom: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	zook: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	camo: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	stumpsmash: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	},
 	stealthelf: {
-		isNonstandard: "sky",
-		tier: "sky",
+		natDexTier: "sky",
+		tier: "sky"
 	}
 };
