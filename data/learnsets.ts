@@ -40,6 +40,8 @@ const genericBugMoves = {
 	quiverdance: ["9M"],
 	pounce: ["9M"],
 	strugglebug: ["9M"],
+	toxic: ["9M"],
+	
 }
 
 const cuteMoves = {
@@ -99,6 +101,7 @@ const genericRush = {
 	skullbash: ["9M"],
 	swordsdance: ["9M"],
 	headsmash: ["9M"],
+	headcharge: ["9M"],
 	
 }
 
@@ -126,9 +129,19 @@ const wingMoves = {
 	
 }
 
+const fartMoves = {
+	gastroacid: ["9M"],
+	corrosiveacid: ["9M"],
+	poisongas: ["9M"],
+	belch: ["9M"],
+	recycle: ["9M"],
+	stuffcheeks: ["9M"],
+}
+
 const fireRushMoves = {
 	flamecharge: ["9M"],
 	flamewheel: ["9M"],
+	flareblitz: ["9M"],
 }
 
 const firebreathMoves = {
@@ -194,6 +207,23 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	doubletrouble: {
 		learnset: {
 			doubleteam: ["9M"],
+			meteorbeam: ["9M"],
+			dracometeor: ["9M"],
+			prismaticlaser: ["9M"],
+			sludgebomb: ["9M"],
+			psychic: ["9M"],
+			aquaring: ["9M"],
+			astonish: ["9M"],
+			shadowsneak: ["9M"],
+			lightscreen: ["9M"],
+			reflect: ["9M"],
+			dazzlinggleam: ["9M"],
+			...kiBlastMoves,
+			featherdance: ["9M"],
+			shadowball: ["9M"],
+			skillswap: ["9M"],
+			solarbeam: ["9M"],
+			teleport: ["9M"],
 			
 		},
 	},
@@ -203,6 +233,18 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			...cuteMoves,
 			...bodyRushMoves,
 			...genericFairy,
+			...genericRush,
+			...fartMoves,
+			appleacid: ["9M"],
+			bodypress: ["9M"],
+			defensecurl: ["9M"],
+			hypnosis: ["9M"],
+			lick: ["9M"],
+			metronome: ["9M"],
+			partingshot: ["9M"],
+			wish: ["9M"],
+			lightscreen: ["9M"],
+			reflect: ["9M"],
 		},
 	},
 	missingno: {
