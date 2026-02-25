@@ -1,4 +1,210 @@
+	// MovesBatches
+	
+const eggMoves = {
+	eggbomb: ["9M"],
+	populationbomb: ["9M"],
+
+	
+}
+
+const bodyRushMoves = {
+	bodyslam: ["9M"],
+	rollout: ["9M"],
+	collisioncourse: ["9M"],
+	bodypress: ["9M"],
+	
+}
+	
+const genericDragonMoves = {
+	dragonpulse: ["9M"],
+	dragontail: ["9M"],
+	dragonbreath: ["9M"],
+	dragondance: ["9M"],	
+}
+const hornMoves = {
+	horndrill: ["9M"],
+	hornattack: ["9M"],
+	megahorn: ["9M"],
+	ragingbull: ["9M"],	
+}
+const genericFairy = {
+	dazzlinggleam: ["9M"],
+	playrough: ["9M"],
+	
+}
+const genericBugMoves = {
+	lunge: ["9M"],
+	uturn: ["9M"],
+	leechlife: ["9M"],
+	infestation: ["9M"],
+	quiverdance: ["9M"],
+	pounce: ["9M"],
+	strugglebug: ["9M"],
+}
+
+const cuteMoves = {
+	charm: ["9M"],
+	babydolleyes: ["9M"],
+	captivate: ["9M"],
+	copycat: ["9M"],
+	encore: ["9M"],
+	
+	
+}
+
+const genericGroundMoves = {
+	earthquake: ["9M"],
+	earthpower: ["9M"],
+	ancientpower: ["9M"],
+	bulldoze: ["9M"],
+	spikes: ["9M"],
+	magnitude: ["9M"],
+}
+
+const handToHandMoves = {
+	closecombat: ["9M"],
+	crosschop: ["9M"],
+	skyuppercut: ["9M"],
+	lowsweep: ["9M"],
+	machpunch: ["9M"],
+}
+const bruteForceMoves = {
+	superpower: ["9M"],
+	poweruppunch: ["9M"],
+	drainpunch: ["9M"],
+	brickbreak: ["9M"],
+	bodypress: ["9M"],
+}
+const kiBlastMoves = {
+	aurasphere: ["9M"],
+	focusblast: ["9M"],
+}
+
+
+const boomerangMoves = {
+	boneclub: ["9M"],
+	bonemerang: ["9M"],
+	bonerush: ["9M"],
+}
+
+const rockUpMoves = {
+	stoneedge: ["9M"],
+	stealthrock: ["9M"],
+	
+}
+
+const genericRush = {
+	doubleedge: ["9M"],
+	headbutt: ["9M"],
+	skullbash: ["9M"],
+	swordsdance: ["9M"],
+	headsmash: ["9M"],
+	
+}
+
+const clawMoves = {
+	metalclaw: ["9M"],
+	scratch: ["9M"],
+	furyswipes: ["9M"],
+	furycutter: ["9M"],
+	slash: ["9M"],
+}
+	
+
+const flyMoves = {
+	fly: ["9M"],
+	skydrop: ["9M"],
+	aerialace: ["9M"],
+}
+const wingMoves = {
+	steelwing: ["9M"],
+	roost: ["9M"],
+	tailwind: ["9M"],
+	wingattack: ["9M"],
+	aircutter: ["9M"],
+	airslash: ["9M"],
+	
+}
+
+const fireRushMoves = {
+	flamecharge: ["9M"],
+	flamewheel: ["9M"],
+}
+
+const firebreathMoves = {
+	ember: ["9M"],
+	fireblast: ["9M"],
+	flamethrower: ["9M"],
+}
+const lightningThrowMoves = {
+	voltswitch: ["9M"],
+	thundershock: ["9M"],
+	spark: ["9M"],
+	electroball: ["9M"],
+	chargebeam: ["9M"],
+	charge: ["9M"],
+	thunderwave: ["9M"],	
+}
+const lightningRushMoves = {
+	
+}
+
+const stormMoves = {
+	raindance: ["9M"],
+	thunder: ["9M"],
+	twister: ["9M"],
+	discharge: ["9M"],
+	hurricane: ["9M"],
+	
+}
+
+const swimMoves = {
+	surf: ["9M"],
+}
+
+
+const fireStarterMoves = {
+	firepledge: ["9M"],
+	blastburn: ["9M"],
+	
+}
+const waterStarterMoves = {
+	waterpledge: ["9M"],
+	hydrocannon: ["9M"],
+}
+const grassStarterMoves = {
+	grasspledge: ["9M"],
+	frenzyplant: ["9M"],
+}
+
 export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
+	//Skylanders
+	spyro: {
+		learnset: {
+			...genericDragonMoves,
+			...firebreathMoves,
+			...fireStarterMoves,
+			...fireRushMoves,
+			...flyMoves,
+			...wingMoves,
+			...hornMoves,
+			...clawMoves,
+		},
+	},
+	doubletrouble: {
+		learnset: {
+			doubleteam: ["9M"],
+			
+		},
+	},
+	wreckingball: {
+		learnset: {
+			...genericBugMoves,
+			...cuteMoves,
+			...bodyRushMoves,
+			...genericFairy,
+		},
+	},
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
@@ -99982,205 +100188,5 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		eventData: [
 			{generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"]},
 		],
-	},
-	//Skylanders
-	spyro: {
-		learnset: {
-			acidspray: ["9M"],
-			amnesia: ["8M", "7E", "6E", "5E", "4E"],
-			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
-			bide: ["7V"],
-			bind: ["7T", "6T", "5T"],
-			block: ["5S3"],
-			bodyslam: ["9M", "8M", "7V", "3T"],
-			bulletseed: ["9M", "8M", "4M", "3M"],
-			captivate: ["4M"],
-			celebrate: ["6S5"],
-			charm: ["9M", "8M", "7E", "6E", "5E", "4E", "3E"],
-			confide: ["7M", "6M"],
-			curse: ["9M", "9E", "8E", "7E", "7V", "6E", "5E", "4E", "3E"],
-			cut: ["7V", "6M", "5M", "4M", "3M"],
-			defensecurl: ["7V", "3T"],
-			doubleedge: ["9M", "8L33", "8V", "7L27", "7V", "6L27", "5L27", "4L27", "3T"],
-			doubleteam: ["7M", "7V", "6M", "5M", "4M", "3M"],
-			echoedvoice: ["7M", "6M", "5M"],
-			endure: ["9M", "8M", "7E", "7V", "6E", "5E", "4M", "3T"],
-			energyball: ["9M", "8M", "7M", "6M", "5M", "4M"],
-			facade: ["9M", "8M", "8V", "7M", "6M", "5M", "4M", "3M"],
-			falseswipe: ["9M", "8M", "5S3"],
-			flash: ["7V", "6M", "5M", "4M", "3M"],
-			frenzyplant: ["5S3"],
-			frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
-			furycutter: ["7V", "4T", "3T"],
-			gigadrain: ["9M", "8M", "7T", "7E", "7V", "6T", "6E", "5T", "5E", "4M", "3M"],
-			grassknot: ["9M", "8M", "7M", "6M", "5M", "4M"],
-			grasspledge: ["9M", "8T", "7T", "6T", "5T"],
-			grasswhistle: ["7E", "6E", "5E", "4E", "3E"],
-			grassyglide: ["9M", "8T"],
-			grassyterrain: ["9M", "8M", "7E", "6E"],
-			growl: ["9L1", "8L1", "8V", "7L3", "7V", "6L3", "6S4", "6S5", "5L3", "5S2", "4L3", "3L4", "3S1"],
-			growth: ["9L6", "8L6", "8V", "7L25", "7V", "6L25", "5L25", "4L25", "3L32", "3S0"],
-			headbutt: ["8V", "7V", "4T"],
-			helpinghand: ["9M", "8M"],
-			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
-			ingrain: ["9E", "8E", "7E", "6E", "5E", "4E"],
-			knockoff: ["9M", "7T", "6T", "5T", "4T"],
-			leafstorm: ["9M", "8M", "7E", "6E", "5E", "4E"],
-			leechseed: ["9L9", "8L9", "8V", "7L7", "7V", "6L7", "6S4", "5L7", "5S2", "4L7", "3L7", "3S1"],
-			lightscreen: ["8M", "8V", "7M", "7V", "6M", "5M", "4E", "3E"],
-			magicalleaf: ["9M", "8M", "7E", "6E", "5E", "4E", "3E"],
-			megadrain: ["8V", "7V"],
-			mimic: ["7V", "3T"],
-			mudslap: ["7V", "4T", "3T"],
-			naturalgift: ["4M"],
-			naturepower: ["8E", "7M", "7E", "6M", "6E", "5E", "4E"],
-			outrage: ["8V"],
-			petaldance: ["9E", "8E", "7E", "7V", "6E", "5E", "4E", "3E"],
-			poisonpowder: ["9L15", "8L15", "8V", "7L13", "7V", "6L13", "6S4", "5L13", "4L13", "3L15"],
-			powerwhip: ["9L33", "8M", "7E", "6E", "5E", "4E"],
-			protect: ["9M", "8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
-			rage: ["7V"],
-			razorleaf: ["9L12", "8L12", "8V", "7L19", "7V", "6L19", "5L19", "4L19", "3L20"],
-			razorwind: ["7V"],
-			reflect: ["8V", "7V"],
-			rest: ["9M", "8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
-			return: ["7M", "7V", "6M", "5M", "4M", "3M"],
-			rocksmash: ["6M", "5M", "4M", "3M"],
-			round: ["8M", "7M", "6M", "5M"],
-			safeguard: ["8M", "7M", "7V", "6M", "5M", "4E", "3E"],
-			secretpower: ["6M", "4M", "3M"],
-			seedbomb: ["9M", "9L18", "8M", "8L18", "7T", "7L37", "6T", "6L37", "5T", "5L37", "4T", "4L37"],
-			skullbash: ["8E", "7E", "7V", "6E", "5E", "4E", "3E"],
-			sleeppowder: ["9L15", "8L15", "8V", "7L13", "7V", "6L13", "5L13", "4L13", "3L15"],
-			sleeptalk: ["9M", "8M", "7M", "7V", "6M", "5T", "4M", "3T"],
-			sludge: ["7E", "6E", "5E", "4E"],
-			sludgebomb: ["9M", "8M", "8V", "7M", "6M", "5M", "4M", "3M"],
-			snore: ["8M", "7T", "7V", "6T", "5T", "4T", "3T"],
-			solarbeam: ["9M", "9L36", "8M", "8L36", "8V", "7M", "7V", "6M", "5M", "4M", "3M", "3L46", "3S0"],
-			strength: ["6M", "5M", "4M", "3M"],
-			stringshot: ["4T"],
-			substitute: ["9M", "8M", "8V", "7M", "7V", "6M", "5M", "4M", "3T"],
-			sunnyday: ["9M", "8M", "7M", "7V", "6M", "5M", "4M", "3M"],
-			swagger: ["7M", "7V", "6M", "5M", "4M", "3T"],
-			sweetscent: ["9L24", "8L24", "7L21", "7V", "6L21", "5L21", "4L21", "3L25", "3S0"],
-			swordsdance: ["9M", "8M", "7M", "7V", "6M", "5M", "4M", "3T"],
-			synthesis: ["9L27", "8L27", "7T", "7L33", "7V", "6T", "6L33", "5T", "5L33", "4T", "4L33", "3L39", "3S0"],
-			tackle: ["9L1", "8L1", "8V", "7L1", "7V", "6L1", "6S5", "5L1", "5S2", "4L1", "3L1", "3S1"],
-			takedown: ["9M", "9L21", "8L21", "8V", "7L15", "7V", "6L15", "5L15", "4L15"],
-			terablast: ["9M"],
-			toxic: ["9M", "9E", "8E", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
-			trailblaze: ["9M"],
-			venoshock: ["9M", "8M", "7M", "6M", "5M"],
-			vinewhip: ["9L3", "8L3", "8V", "7L7", "7V", "6L9", "6S4", "5L9", "5S2", "4L9", "3L10", "3S1"],
-			weatherball: ["9M", "8M", "5S3"],
-			workup: ["8M", "7M"],
-			worryseed: ["9L30", "8L30", "7T", "7L31", "6T", "6L31", "5T", "5L31", "4T", "4L31"],
-		},
-	},
-	doubletrouble: {
-		learnset: {
-			agility: ["9M", "9L1", "8M", "8L1"],
-			alluringvoice: ["9M"],
-			allyswitch: ["8M", "7T"],
-			attract: ["8M", "7M"],
-			bodyslam: ["9M", "8M"],
-			brickbreak: ["9M", "8M", "8V", "7M"],
-			calmmind: ["9M", "8M", "8V", "7M"],
-			charge: ["9M"],
-			chargebeam: ["9M", "7M"],
-			charm: ["9M", "9L1", "8M", "8L1"],
-			confide: ["7M"],
-			covet: ["7T"],
-			dig: ["9M", "8M", "8V"],
-			discharge: ["9L1", "8L1"],
-			doubleteam: ["9L1", "8L1", "8V", "7M"],
-			drainingkiss: ["9M", "8M"],
-			echoedvoice: ["7M"],
-			eerieimpulse: ["9M"],
-			electricterrain: ["9M", "8M"],
-			electroball: ["9M", "9L1", "8M", "8L1"],
-			electroweb: ["9M", "8M", "7T"],
-			encore: ["9M", "8M", "8V"],
-			endeavor: ["9M"],
-			endure: ["9M", "8M"],
-			expandingforce: ["9M", "8T"],
-			facade: ["9M", "8M", "8V", "7M"],
-			fakeout: ["8V"],
-			faketears: ["9M"],
-			feint: ["9L1", "8L1"],
-			fling: ["9M", "8M", "7M"],
-			focusblast: ["9M", "8M", "7M"],
-			focuspunch: ["9M", "7T"],
-			frustration: ["7M"],
-			futuresight: ["8M"],
-			gigaimpact: ["9M", "8M", "7M"],
-			grassknot: ["9M", "8M", "7M"],
-			growl: ["9L1", "8L1", "8V"],
-			headbutt: ["8V"],
-			helpinghand: ["9M", "8M", "8V", "7T"],
-			hiddenpower: ["7M"],
-			hyperbeam: ["9M", "8M", "8V", "7M"],
-			irontail: ["9L1", "8M", "8V", "7T"],
-			knockoff: ["9M", "7T"],
-			laserfocus: ["7T"],
-			lightscreen: ["9M", "9L1", "8M", "8L1", "8V", "7M"],
-			magiccoat: ["7T"],
-			magicroom: ["8M", "7T"],
-			magnetrise: ["7T"],
-			megakick: ["8M"],
-			megapunch: ["8M"],
-			nastyplot: ["9M", "9L1", "8M", "8L1"],
-			nuzzle: ["9L1", "8L1"],
-			payday: ["8M", "8V"],
-			playnice: ["9L1", "8L1"],
-			playrough: ["9M", "8M"],
-			protect: ["9M", "8M", "8V", "7M"],
-			psychic: ["9M", "9L0", "8M", "8L0", "8V", "7M", "7L1"],
-			psychicnoise: ["9M"],
-			psychicterrain: ["9M"],
-			psyshock: ["9M", "8M", "7M"],
-			quickattack: ["9L1", "8L1", "7L1"],
-			raindance: ["9M", "8M", "7M"],
-			recycle: ["7T"],
-			reflect: ["9M", "8M", "8V", "7M"],
-			rest: ["9M", "8M", "8V", "7M"],
-			return: ["7M"],
-			reversal: ["9M", "8M"],
-			risingvoltage: ["8T"],
-			round: ["8M", "7M"],
-			safeguard: ["8M", "7M"],
-			seismictoss: ["8V"],
-			shockwave: ["7T"],
-			signalbeam: ["7T"],
-			skillswap: ["9M"],
-			slam: ["8L1"],
-			sleeptalk: ["9M", "8M", "7M"],
-			snore: ["8M", "7T"],
-			spark: ["9L1", "8L1"],
-			speedswap: ["8M", "7L1"],
-			storedpower: ["9M", "8M"],
-			substitute: ["9M", "8M", "8V", "7M"],
-			surf: ["9M", "8M"],
-			swagger: ["7M"],
-			sweetkiss: ["9L1", "8L1"],
-			swift: ["9M", "8M"],
-			tailwhip: ["9L1", "8L1", "8V", "7L1"],
-			takedown: ["9M"],
-			telekinesis: ["7T"],
-			teleport: ["8V"],
-			terablast: ["9M"],
-			thief: ["9M", "8M", "7M"],
-			thunder: ["9M", "9L1", "8M", "8L1", "8V", "7M"],
-			thunderbolt: ["9M", "9L5", "8M", "8L1", "8V", "7M", "7L1"],
-			thunderpunch: ["9M", "8M", "8V", "7T"],
-			thundershock: ["9L1", "8L1", "8V", "7L1"],
-			thunderwave: ["9M", "9L1", "8M", "8L1", "8V", "7M"],
-			toxic: ["8V", "7M"],
-			trailblaze: ["9M"],
-			upperhand: ["9M"],
-			uproar: ["8M"],
-			voltswitch: ["9M", "8M", "7M"],
-			wildcharge: ["9M", "8M", "7M"],
-		},
 	},
 };
