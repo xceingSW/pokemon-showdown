@@ -247,6 +247,37 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			reflect: ["9M"],
 		},
 	},
+	voodood: {
+		learnset: {
+			axekick: ["9M"],
+			tripleaxel: ["9M"],
+			stoneaxe: ["9M"],
+			
+		}
+	},
+	bash: {
+		learnset: {
+			...genericDragonMoves,
+			...genericGroundMoves,
+			...genericRush,
+			ironhead: ["9M"],
+			...rockUpMoves,
+		}
+	},
+	terrafin: {
+		learnset: {
+			...handToHandMoves,
+			...genericGroundMoves,
+			dig: ["9M"],
+			populationbomb: ["9M"],
+			bulkup: ["9M"],
+			
+		}
+	},
+	
+	
+	
+	
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
